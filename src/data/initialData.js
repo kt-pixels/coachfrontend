@@ -1,0 +1,125 @@
+export const initialUserData = {
+  name: "Kirtan",
+  currentWeight: 55,
+  targetWeight: 70,
+  height: 170,
+  age: 22,
+  gender: "male",
+  dailyCalorieTarget: 3000,
+  startDate: new Date().toISOString(),
+  startWeight: 55,
+};
+
+export const initialMeals = {
+  breakfast: [],
+  lunch: [],
+  snacks: [],
+  dinner: [],
+};
+
+export const initialWorkouts = [
+  {
+    id: 1,
+    name: "Push-ups",
+    sets: 3,
+    reps: 15,
+    completed: false,
+    day: "Monday",
+  },
+  { id: 2, name: "Squats", sets: 3, reps: 20, completed: false, day: "Monday" },
+  {
+    id: 3,
+    name: "Lunges",
+    sets: 3,
+    reps: 15,
+    completed: false,
+    day: "Tuesday",
+  },
+  { id: 4, name: "Plank", sets: 3, reps: 45, completed: false, day: "Tuesday" },
+  {
+    id: 5,
+    name: "Burpees",
+    sets: 3,
+    reps: 10,
+    completed: false,
+    day: "Wednesday",
+  },
+  {
+    id: 6,
+    name: "Mountain Climbers",
+    sets: 3,
+    reps: 20,
+    completed: false,
+    day: "Wednesday",
+  },
+  {
+    id: 7,
+    name: "Jumping Jacks",
+    sets: 3,
+    reps: 30,
+    completed: false,
+    day: "Thursday",
+  },
+  {
+    id: 8,
+    name: "High Knees",
+    sets: 3,
+    reps: 25,
+    completed: false,
+    day: "Thursday",
+  },
+  {
+    id: 9,
+    name: "Glute Bridges",
+    sets: 3,
+    reps: 20,
+    completed: false,
+    day: "Friday",
+  },
+  {
+    id: 10,
+    name: "Calf Raises",
+    sets: 3,
+    reps: 25,
+    completed: false,
+    day: "Friday",
+  },
+  {
+    id: 11,
+    name: "Arm Circles",
+    sets: 3,
+    reps: 20,
+    completed: false,
+    day: "Saturday",
+  },
+  {
+    id: 12,
+    name: "Wall Sit",
+    sets: 3,
+    reps: 45,
+    completed: false,
+    day: "Saturday",
+  },
+];
+
+export const initialHabits = [
+  { id: 1, name: "Wake up early (6 AM)", completed: false, streak: 0 },
+  { id: 2, name: "Drink 3L water", completed: false, streak: 0 },
+  { id: 3, name: "Eat breakfast on time", completed: false, streak: 0 },
+  { id: 4, name: "No junk food", completed: false, streak: 0 },
+  { id: 5, name: "Sleep 8 hours", completed: false, streak: 0 },
+  { id: 6, name: "Take protein shake", completed: false, streak: 0 },
+];
+
+export const motivationalQuotes = [
+  "Consistency is the key to success.",
+  "Every meal counts. Every workout matters.",
+  "Your future self will thank you.",
+  "Small progress is still progress.",
+  "Discipline beats motivation.",
+  "Eat big to get big.",
+  "No excuses, just results.",
+  "Transform your body, transform your life.",
+  "Pain is temporary, gains are forever.",
+  "Believe in the process.",
+];

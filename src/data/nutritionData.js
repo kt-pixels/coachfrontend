@@ -1,0 +1,108 @@
+export const vegetarianProteins = [
+  {
+    name: "Paneer",
+    protein: 18,
+    calories: 265,
+    cost: "Medium",
+    serving: "100g",
+  },
+  { name: "Tofu", protein: 8, calories: 76, cost: "Low", serving: "100g" },
+  {
+    name: "Lentils (Dal)",
+    protein: 9,
+    calories: 116,
+    cost: "Low",
+    serving: "100g",
+  },
+  {
+    name: "Chickpeas (Chana)",
+    protein: 19,
+    calories: 364,
+    cost: "Low",
+    serving: "100g",
+  },
+  {
+    name: "Greek Yogurt",
+    protein: 10,
+    calories: 59,
+    cost: "Medium",
+    serving: "100g",
+  },
+  { name: "Milk", protein: 3.4, calories: 42, cost: "Low", serving: "100ml" },
+  { name: "Eggs", protein: 13, calories: 155, cost: "Low", serving: "2 eggs" },
+  {
+    name: "Almonds",
+    protein: 21,
+    calories: 579,
+    cost: "Medium",
+    serving: "100g",
+  },
+  { name: "Peanuts", protein: 26, calories: 567, cost: "Low", serving: "100g" },
+  { name: "Quinoa", protein: 14, calories: 368, cost: "High", serving: "100g" },
+  { name: "Oats", protein: 17, calories: 389, cost: "Low", serving: "100g" },
+  {
+    name: "Chia Seeds",
+    protein: 17,
+    calories: 486,
+    cost: "Medium",
+    serving: "100g",
+  },
+];
+
+export const highCalorieFoods = [
+  { name: "Peanut Butter", calories: 588, protein: 25, fat: 50, carbs: 20 },
+  { name: "Avocado", calories: 160, protein: 2, fat: 15, carbs: 9 },
+  { name: "Coconut Oil", calories: 862, protein: 0, fat: 100, carbs: 0 },
+  { name: "Dark Chocolate", calories: 546, protein: 5, fat: 31, carbs: 61 },
+  { name: "Bananas", calories: 89, protein: 1, fat: 0, carbs: 23 },
+  { name: "Sweet Potato", calories: 86, protein: 2, fat: 0, carbs: 20 },
+  { name: "Rice", calories: 130, protein: 3, fat: 0, carbs: 28 },
+  { name: "Whole Wheat Bread", calories: 247, protein: 13, fat: 3, carbs: 41 },
+  { name: "Cheese", calories: 402, protein: 25, fat: 33, carbs: 1 },
+  { name: "Butter", calories: 717, protein: 1, fat: 81, carbs: 0 },
+];
+
+export const budgetMealIdeas = [
+  {
+    name: "Dal Rice Bowl",
+    calories: 450,
+    protein: 18,
+    cost: "₹40",
+    ingredients: ["Rice", "Toor Dal", "Ghee", "Spices"],
+  },
+  {
+    name: "Paneer Bhurji",
+    calories: 380,
+    protein: 22,
+    cost: "₹60",
+    ingredients: ["Paneer", "Onion", "Tomato", "Spices", "Oil"],
+  },
+  {
+    name: "Egg Bhurji",
+    calories: 320,
+    protein: 20,
+    cost: "₹35",
+    ingredients: ["Eggs", "Onion", "Spices", "Oil", "Bread"],
+  },
+  {
+    name: "Chana Chaat",
+    calories: 280,
+    protein: 15,
+    cost: "₹25",
+    ingredients: ["Chickpeas", "Onion", "Tomato", "Lemon", "Spices"],
+  },
+  {
+    name: "Peanut Butter Toast",
+    calories: 350,
+    protein: 12,
+    cost: "₹30",
+    ingredients: ["Bread", "Peanut Butter", "Banana", "Honey"],
+  },
+  {
+    name: "Oats Shake",
+    calories: 400,
+    protein: 15,
+    cost: "₹45",
+    ingredients: ["Oats", "Milk", "Banana", "Peanuts", "Sugar"],
+  },
+];
